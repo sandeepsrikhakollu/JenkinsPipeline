@@ -29,7 +29,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>in28minutes</finalName>
+		<finalName>firstwebapp</finalName>
 		<pluginManagement>
 			<plugins>
 				<plugin>
