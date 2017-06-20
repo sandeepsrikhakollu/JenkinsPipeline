@@ -1,11 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.in28minutes</groupId>
-	<artifactId>in28minutes-first-web-servlet-jsp</artifactId>
+	<groupId>com.firstwebapp</groupId>
+	<artifactId>qshore-first-web-servlet-jsp</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>in28minutes-first-web-servlet-jsp Maven Webapp</name>
+	<name>qshore-first-web-servlet-jsp Maven Webapp</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -29,7 +29,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>in28minutes</finalName>
+		<finalName>firstwebapp</finalName>
 		<pluginManagement>
 			<plugins>
 				<plugin>
@@ -62,7 +62,7 @@
 					<artifactId>maven-war-plugin</artifactId>
 					<version>2.4</version>
 					<configuration>
-						<warName>in28minutes</warName>
+						<warName>firstwebapp</warName>
 					</configuration>
 				</plugin>
 				<plugin>
@@ -70,7 +70,7 @@
 					<artifactId>tomcat7-maven-plugin</artifactId>
 					<version>2.2</version>
 					<configuration>
-						<warFile>target/in28minutes.war</warFile>
+						<warFile>target/firstwebapp.war</warFile>
 						<path>/</path>
 						<contextReloadable>true</contextReloadable>
 					</configuration>
