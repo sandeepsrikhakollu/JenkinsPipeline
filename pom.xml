@@ -72,10 +72,6 @@
 					<configuration>
 						<warFile>target/firstwebapp.war</warFile>
 						<path>/</path>
-						<update>true</update>
-     						<url>http:// localhost:8080/manager/text</url>
-    						 <username>deployer</username>
-    						 <password>deployer</password>
 						<contextReloadable>true</contextReloadable>
 					</configuration>
 				</plugin>
