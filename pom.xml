@@ -78,6 +78,13 @@
 			</plugins>
 		</pluginManagement>
 	</build>
+	<distributionManagement>
+		<repository>
+			<id> new-repo </id>
+			<name> new-repo </name>
+			<url> http://35.193.151.16:8081/nexus/content/repositories/new-repo/ </url>
+		</repository>
+	</distributionManagement>	
 
 </project>
 
